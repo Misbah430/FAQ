@@ -1,5 +1,5 @@
 # FAQ
-This is a simple FAQ Chatbot built with **Python**, **Streamlit**, and **fuzzywuzzy** for fuzzy matching of user queries. It provides answers to frequently asked questions by matching user input with predefined questions stored in a JSON file.
+This is a simple FAQ Chatbot built with Python, Streamlit, and fuzzy-wuzzy for fuzzy matching of user queries. It provides answers to frequently asked questions by matching user input with predefined questions stored in a JSON file.
 
 Features
 
@@ -19,15 +19,21 @@ Requirements
 Installation 
 
 1. Clone the Repository
+   
              https://github.com/Misbah430/FAQ.git
 
 
-2. Set Up Environment
-          	conda create -n faqbot python=3.10
-           	conda activate faqbot
+3. Set Up Environment
+   
+          •	conda create -n faqbot python=3.10
+          •	conda activate faqbot
 
-3. Install Dependencies
+
+4. Install Dependencies
+   
          pip install -r requirements.txt
-4. Run the App
+   
+5. Run the App
+   
          streamlit run main.py
 
